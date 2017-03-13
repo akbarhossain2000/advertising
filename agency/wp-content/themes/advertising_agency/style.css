@@ -1,0 +1,120 @@
+/*
+Theme Name: Advertising Agency
+Theme URI: http://arkbd.com
+Author: Deelko
+Author URI: http://deelko.com
+Description: simple advertising wordpress theme
+version : 1.0
+Tags : advertise, service, simple theme
+Textdomain: adsagency
+
+*/
+
+.navbar-nav  li a:hover{
+		background: #3f3d59 !important;
+		transition:0.7s;
+}
+
+
+.p_margin{
+	margin-top:50px !important;
+	margin-bottom:0px !important;
+}
+
+.main-heading a{
+	text-decoration:none;
+}
+
+.pagi{
+	text-align:center;
+}
+.pagination .page-numbers.current{
+    background: #3f3d59;
+	border: 1px solid #a0ce4e;
+}
+.pagination li:first-child a:hover{
+		background:#a0ce4e;
+		border:1px solid #3f3d59;
+		cursor:auto;
+}
+.pagination li:first-child > a{
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+}
+.pagination li a, .pagination li span{
+	margin-right:5px;
+}
+.pagination li:last-child  > a, .pagination li:last-child  > span{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.pagination li:last-child  > a:last-child{
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.pagination li:last-child  > a:first-child{
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+/* Single page */
+
+
+#one-page-content h2{
+	text-transform:capitalize;
+}
+#one-page-content{
+	margin:20px 0px 70px 0px;
+}
+.single-item{}
+.single-item img{
+	float:right;
+	height:auto;
+	width:65%;
+	margin: 7px 0px 10px 40px;
+	border:5px solid #C0C0C0;
+	border-radius:5px;
+}
+.single-item  p{
+	font-size:16px;
+	text-align:justify;
+	font-weight:400;
+	
+}
+
+/* about page */
+
+.page-content p {
+	color: #000;
+	margin: 0px;
+	text-align: justify;
+	font-weight:400;
+	font-size:15px;
+}
+
+
+/* contact page */
+.form-control-feedback {
+	color: #3f3d59;
+}
+#form form input{
+	color: #000;
+}
+.wpcf7-submit{
+	background:#3f3d59 !important;
+	color:#FAFAFA !important;
+	font-weight:700;
+	text-transform:uppercase;
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+ font-size: 14px;
+ color: #C0C0C0 !important; 
+ text-transform: uppercase;
+ text-align: left;
+ font-weight: 700;
+} 
+
+#form form textarea {
+	background: #f0f0f0;
+	color:#000;
+}
